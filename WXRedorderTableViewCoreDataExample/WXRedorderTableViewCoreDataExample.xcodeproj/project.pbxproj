@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F899E7C19931E5300DF0640 /* WXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F899E7A19931E5300DF0640 /* WXTableViewController.m */; };
+		6F899E7D19931E5300DF0640 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F899E7B19931E5300DF0640 /* Storyboard.storyboard */; };
+		6F899E8419931F7400DF0640 /* WXReorderTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F899E8319931F7400DF0640 /* WXReorderTableTableViewController.m */; };
+		6F899E8A19931FFD00DF0640 /* WXTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F899E8919931FFD00DF0640 /* WXTask.m */; };
+		6FE2850919931DD100C1CD11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE2850819931DD100C1CD11 /* Foundation.framework */; };
+		6FE2850B19931DD100C1CD11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE2850A19931DD100C1CD11 /* CoreGraphics.framework */; };
+		6FE2850D19931DD100C1CD11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE2850C19931DD100C1CD11 /* UIKit.framework */; };
+		6FE2850F19931DD100C1CD11 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE2850E19931DD100C1CD11 /* CoreData.framework */; };
+		6FE2851519931DD100C1CD11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FE2851319931DD100C1CD11 /* InfoPlist.strings */; };
+		6FE2851719931DD100C1CD11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2851619931DD100C1CD11 /* main.m */; };
+		6FE2851B19931DD100C1CD11 /* WXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2851A19931DD100C1CD11 /* WXAppDelegate.m */; };
+		6FE2851E19931DD100C1CD11 /* WXRedorderTableViewCoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2851C19931DD100C1CD11 /* WXRedorderTableViewCoreDataExample.xcdatamodeld */; };
+		6FE2852019931DD100C1CD11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE2851F19931DD100C1CD11 /* Images.xcassets */; };
+		6FE2852719931DD100C1CD11 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE2852619931DD100C1CD11 /* XCTest.framework */; };
+		6FE2852819931DD100C1CD11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE2850819931DD100C1CD11 /* Foundation.framework */; };
+		6FE2852919931DD100C1CD11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE2850C19931DD100C1CD11 /* UIKit.framework */; };
+		6FE2852A19931DD100C1CD11 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE2850E19931DD100C1CD11 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FE2852B19931DD100C1CD11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FE284FD19931DD100C1CD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE2850419931DD100C1CD11;
+			remoteInfo = WXRedorderTableViewCoreDataExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F899E7919931E5300DF0640 /* WXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTableViewController.h; sourceTree = "<group>"; };
+		6F899E7A19931E5300DF0640 /* WXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTableViewController.m; sourceTree = "<group>"; };
+		6F899E7B19931E5300DF0640 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		6F899E8219931F7400DF0640 /* WXReorderTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXReorderTableTableViewController.h; sourceTree = "<group>"; };
+		6F899E8319931F7400DF0640 /* WXReorderTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXReorderTableTableViewController.m; sourceTree = "<group>"; };
+		6F899E8819931FFD00DF0640 /* WXTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTask.h; sourceTree = "<group>"; };
+		6F899E8919931FFD00DF0640 /* WXTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTask.m; sourceTree = "<group>"; };
+		6FE2850519931DD100C1CD11 /* WXRedorderTableViewCoreDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXRedorderTableViewCoreDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE2850819931DD100C1CD11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6FE2850A19931DD100C1CD11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6FE2850C19931DD100C1CD11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6FE2850E19931DD100C1CD11 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6FE2851219931DD100C1CD11 /* WXRedorderTableViewCoreDataExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WXRedorderTableViewCoreDataExample-Info.plist"; sourceTree = "<group>"; };
+		6FE2851419931DD100C1CD11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6FE2851619931DD100C1CD11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FE2851819931DD100C1CD11 /* WXRedorderTableViewCoreDataExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WXRedorderTableViewCoreDataExample-Prefix.pch"; sourceTree = "<group>"; };
+		6FE2851919931DD100C1CD11 /* WXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXAppDelegate.h; sourceTree = "<group>"; };
+		6FE2851A19931DD100C1CD11 /* WXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXAppDelegate.m; sourceTree = "<group>"; };
+		6FE2851D19931DD100C1CD11 /* WXRedorderTableViewCoreDataExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WXRedorderTableViewCoreDataExample.xcdatamodel; sourceTree = "<group>"; };
+		6FE2851F19931DD100C1CD11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FE2852519931DD100C1CD11 /* WXRedorderTableViewCoreDataExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXRedorderTableViewCoreDataExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE2852619931DD100C1CD11 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FE2850219931DD100C1CD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE2850B19931DD100C1CD11 /* CoreGraphics.framework in Frameworks */,
+				6FE2850F19931DD100C1CD11 /* CoreData.framework in Frameworks */,
+				6FE2850D19931DD100C1CD11 /* UIKit.framework in Frameworks */,
+				6FE2850919931DD100C1CD11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE2852219931DD100C1CD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE2852719931DD100C1CD11 /* XCTest.framework in Frameworks */,
+				6FE2852A19931DD100C1CD11 /* CoreData.framework in Frameworks */,
+				6FE2852919931DD100C1CD11 /* UIKit.framework in Frameworks */,
+				6FE2852819931DD100C1CD11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F899E8119931F7400DF0640 /* WXReorderTableView */ = {
+			isa = PBXGroup;
+			children = (
+				6F899E8219931F7400DF0640 /* WXReorderTableTableViewController.h */,
+				6F899E8319931F7400DF0640 /* WXReorderTableTableViewController.m */,
+			);
+			name = WXReorderTableView;
+			path = ../WXReorderTableView;
+			sourceTree = "<group>";
+		};
+		6FE284FC19931DD100C1CD11 = {
+			isa = PBXGroup;
+			children = (
+				6F899E8119931F7400DF0640 /* WXReorderTableView */,
+				6FE2851019931DD100C1CD11 /* WXRedorderTableViewCoreDataExample */,
+				6FE2850719931DD100C1CD11 /* Frameworks */,
+				6FE2850619931DD100C1CD11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FE2850619931DD100C1CD11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FE2850519931DD100C1CD11 /* WXRedorderTableViewCoreDataExample.app */,
+				6FE2852519931DD100C1CD11 /* WXRedorderTableViewCoreDataExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FE2850719931DD100C1CD11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FE2850819931DD100C1CD11 /* Foundation.framework */,
+				6FE2850A19931DD100C1CD11 /* CoreGraphics.framework */,
+				6FE2850C19931DD100C1CD11 /* UIKit.framework */,
+				6FE2850E19931DD100C1CD11 /* CoreData.framework */,
+				6FE2852619931DD100C1CD11 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FE2851019931DD100C1CD11 /* WXRedorderTableViewCoreDataExample */ = {
+			isa = PBXGroup;
+			children = (
+				6F899E8819931FFD00DF0640 /* WXTask.h */,
+				6F899E8919931FFD00DF0640 /* WXTask.m */,
+				6FE2851919931DD100C1CD11 /* WXAppDelegate.h */,
+				6FE2851A19931DD100C1CD11 /* WXAppDelegate.m */,
+				6F899E7919931E5300DF0640 /* WXTableViewController.h */,
+				6F899E7A19931E5300DF0640 /* WXTableViewController.m */,
+				6F899E7B19931E5300DF0640 /* Storyboard.storyboard */,
+				6FE2851F19931DD100C1CD11 /* Images.xcassets */,
+				6FE2851C19931DD100C1CD11 /* WXRedorderTableViewCoreDataExample.xcdatamodeld */,
+				6FE2851119931DD100C1CD11 /* Supporting Files */,
+			);
+			path = WXRedorderTableViewCoreDataExample;
+			sourceTree = "<group>";
+		};
+		6FE2851119931DD100C1CD11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FE2851219931DD100C1CD11 /* WXRedorderTableViewCoreDataExample-Info.plist */,
+				6FE2851319931DD100C1CD11 /* InfoPlist.strings */,
+				6FE2851619931DD100C1CD11 /* main.m */,
+				6FE2851819931DD100C1CD11 /* WXRedorderTableViewCoreDataExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FE2850419931DD100C1CD11 /* WXRedorderTableViewCoreDataExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE2853719931DD100C1CD11 /* Build configuration list for PBXNativeTarget "WXRedorderTableViewCoreDataExample" */;
+			buildPhases = (
+				6FE2850119931DD100C1CD11 /* Sources */,
+				6FE2850219931DD100C1CD11 /* Frameworks */,
+				6FE2850319931DD100C1CD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXRedorderTableViewCoreDataExample;
+			productName = WXRedorderTableViewCoreDataExample;
+			productReference = 6FE2850519931DD100C1CD11 /* WXRedorderTableViewCoreDataExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FE2852419931DD100C1CD11 /* WXRedorderTableViewCoreDataExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE2853A19931DD100C1CD11 /* Build configuration list for PBXNativeTarget "WXRedorderTableViewCoreDataExampleTests" */;
+			buildPhases = (
+				6FE2852119931DD100C1CD11 /* Sources */,
+				6FE2852219931DD100C1CD11 /* Frameworks */,
+				6FE2852319931DD100C1CD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FE2852C19931DD100C1CD11 /* PBXTargetDependency */,
+			);
+			name = WXRedorderTableViewCoreDataExampleTests;
+			productName = WXRedorderTableViewCoreDataExampleTests;
+			productReference = 6FE2852519931DD100C1CD11 /* WXRedorderTableViewCoreDataExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FE284FD19931DD100C1CD11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Charlie Wu";
+				TargetAttributes = {
+					6FE2852419931DD100C1CD11 = {
+						TestTargetID = 6FE2850419931DD100C1CD11;
+					};
+				};
+			};
+			buildConfigurationList = 6FE2850019931DD100C1CD11 /* Build configuration list for PBXProject "WXRedorderTableViewCoreDataExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6FE284FC19931DD100C1CD11;
+			productRefGroup = 6FE2850619931DD100C1CD11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FE2850419931DD100C1CD11 /* WXRedorderTableViewCoreDataExample */,
+				6FE2852419931DD100C1CD11 /* WXRedorderTableViewCoreDataExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FE2850319931DD100C1CD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE2851519931DD100C1CD11 /* InfoPlist.strings in Resources */,
+				6FE2852019931DD100C1CD11 /* Images.xcassets in Resources */,
+				6F899E7D19931E5300DF0640 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE2852319931DD100C1CD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FE2850119931DD100C1CD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F899E7C19931E5300DF0640 /* WXTableViewController.m in Sources */,
+				6F899E8A19931FFD00DF0640 /* WXTask.m in Sources */,
+				6F899E8419931F7400DF0640 /* WXReorderTableTableViewController.m in Sources */,
+				6FE2851719931DD100C1CD11 /* main.m in Sources */,
+				6FE2851E19931DD100C1CD11 /* WXRedorderTableViewCoreDataExample.xcdatamodeld in Sources */,
+				6FE2851B19931DD100C1CD11 /* WXAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE2852119931DD100C1CD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FE2852C19931DD100C1CD11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FE2850419931DD100C1CD11 /* WXRedorderTableViewCoreDataExample */;
+			targetProxy = 6FE2852B19931DD100C1CD11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FE2851319931DD100C1CD11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE2851419931DD100C1CD11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FE2853519931DD100C1CD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6FE2853619931DD100C1CD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FE2853819931DD100C1CD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXRedorderTableViewCoreDataExample/WXRedorderTableViewCoreDataExample-Prefix.pch";
+				INFOPLIST_FILE = "WXRedorderTableViewCoreDataExample/WXRedorderTableViewCoreDataExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6FE2853919931DD100C1CD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXRedorderTableViewCoreDataExample/WXRedorderTableViewCoreDataExample-Prefix.pch";
+				INFOPLIST_FILE = "WXRedorderTableViewCoreDataExample/WXRedorderTableViewCoreDataExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6FE2853B19931DD100C1CD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WXRedorderTableViewCoreDataExample.app/WXRedorderTableViewCoreDataExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXRedorderTableViewCoreDataExample/WXRedorderTableViewCoreDataExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WXRedorderTableViewCoreDataExampleTests/WXRedorderTableViewCoreDataExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6FE2853C19931DD100C1CD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WXRedorderTableViewCoreDataExample.app/WXRedorderTableViewCoreDataExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXRedorderTableViewCoreDataExample/WXRedorderTableViewCoreDataExample-Prefix.pch";
+				INFOPLIST_FILE = "WXRedorderTableViewCoreDataExampleTests/WXRedorderTableViewCoreDataExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FE2850019931DD100C1CD11 /* Build configuration list for PBXProject "WXRedorderTableViewCoreDataExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE2853519931DD100C1CD11 /* Debug */,
+				6FE2853619931DD100C1CD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE2853719931DD100C1CD11 /* Build configuration list for PBXNativeTarget "WXRedorderTableViewCoreDataExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE2853819931DD100C1CD11 /* Debug */,
+				6FE2853919931DD100C1CD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE2853A19931DD100C1CD11 /* Build configuration list for PBXNativeTarget "WXRedorderTableViewCoreDataExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE2853B19931DD100C1CD11 /* Debug */,
+				6FE2853C19931DD100C1CD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6FE2851C19931DD100C1CD11 /* WXRedorderTableViewCoreDataExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6FE2851D19931DD100C1CD11 /* WXRedorderTableViewCoreDataExample.xcdatamodel */,
+			);
+			currentVersion = 6FE2851D19931DD100C1CD11 /* WXRedorderTableViewCoreDataExample.xcdatamodel */;
+			path = WXRedorderTableViewCoreDataExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6FE284FD19931DD100C1CD11 /* Project object */;
+}
