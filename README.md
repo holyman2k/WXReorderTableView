@@ -15,7 +15,7 @@ Download and add the following classes
 Implement Reordering
 --------------------
 
-Sub class WXReorderTableView set sub class and set your table view controller as the reorder delegate
+Sub class WXReorderTableViewController and set your table view controller as the reorder delegate
 
     - (void)viewDidLoad
     {
@@ -27,7 +27,7 @@ Implement delegate method
 
     - (void)swapObjectAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
   
-when rendering cell, check the re ordering cell and set it to blank
+When rendering cell, check the re ordering cell and set it to blank
 
     UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
     {
