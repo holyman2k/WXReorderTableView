@@ -4,9 +4,6 @@ WXReorderTableView
 WXReorderTableView is a sub class of UITableViewController that implements hold-drag re ordering of table view cells. 
 This library works with list backed table view as well as NSFetchedResultsController.
 
-There are other library on github such as [BVReorderTableView]https://github.com/bvogelzang/BVReorderTableView you can
-also have a look
-
 Installation
 ------------
 
@@ -55,4 +52,8 @@ Examples
 * WXReorderTableViewExample - List backed table view
 * WXRedorderTableViewCoreDataExample - Core Data, NSFetchedResultController backed table viewDidLoad
 
+Similar Projects
+----------------
+
+* [BVReorderTableView](https://github.com/bvogelzang/BVReorderTableView) 
 
