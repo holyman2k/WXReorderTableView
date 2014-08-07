@@ -46,7 +46,7 @@
     [self.tableView reloadData];
 }
 
-- (void)swapCellAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
+- (void)swapObjectAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
 {
     WXTask *fromTask = [self.fetchedResultsController objectAtIndexPath:fromIndexPath];
     WXTask *toTask = [self.fetchedResultsController objectAtIndexPath:toIndexPath];

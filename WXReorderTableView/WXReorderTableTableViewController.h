@@ -10,7 +10,7 @@
 
 @protocol WXReorderTableViewDelegate <NSObject>
 
-- (void)swapCellAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath;
+- (void)swapObjectAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath;
 
 @end
 

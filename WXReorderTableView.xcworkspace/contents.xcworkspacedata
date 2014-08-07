@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:WXReorderTableView"
+      name = "WXReorderTableView">
+      <FileRef
+         location = "group:WXReorderTableTableViewController.h">
+      </FileRef>
+      <FileRef
+         location = "group:WXReorderTableTableViewController.m">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:WXReorderTableViewExample"
+      name = "WXReorderTableViewExample">
+      <Group
+         location = "group:WXReorderTableViewExample"
+         name = "WXReorderTableViewExample">
+         <Group
+            location = "group:Images.xcassets"
+            name = "Images.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:LaunchImage.launchimage"
+               name = "LaunchImage.launchimage">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Storyboard.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:WXAppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:WXAppDelegate.m">
+         </FileRef>
+         <FileRef
+            location = "group:WXReorderTableViewExample-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:WXReorderTableViewExample-Prefix.pch">
+         </FileRef>
+         <FileRef
+            location = "group:WXTableViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:WXTableViewController.m">
+         </FileRef>
+         <Group
+            location = "group:en.lproj"
+            name = "en.lproj">
+            <FileRef
+               location = "group:InfoPlist.strings">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:WXReorderTableViewExample.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:WXRedorderTableViewCoreDataExample"
+      name = "WXRedorderTableViewCoreDataExample">
+      <Group
+         location = "group:WXRedorderTableViewCoreDataExample"
+         name = "WXRedorderTableViewCoreDataExample">
+         <Group
+            location = "group:Images.xcassets"
+            name = "Images.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:LaunchImage.launchimage"
+               name = "LaunchImage.launchimage">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Storyboard.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:WXAppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:WXAppDelegate.m">
+         </FileRef>
+         <FileRef
+            location = "group:WXRedorderTableViewCoreDataExample-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:WXRedorderTableViewCoreDataExample-Prefix.pch">
+         </FileRef>
+         <FileRef
+            location = "group:WXRedorderTableViewCoreDataExample.xcdatamodeld">
+         </FileRef>
+         <FileRef
+            location = "group:WXTableViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:WXTableViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:WXTask.h">
+         </FileRef>
+         <FileRef
+            location = "group:WXTask.m">
+         </FileRef>
+         <Group
+            location = "group:en.lproj"
+            name = "en.lproj">
+            <FileRef
+               location = "group:InfoPlist.strings">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:WXRedorderTableViewCoreDataExample.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>

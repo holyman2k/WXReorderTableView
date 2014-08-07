@@ -67,7 +67,7 @@
 
             // check if table view requires to swap cell
             if (toIndexPath.row != fromIndexPath.row) {
-                [self.reorderDelegate swapCellAtIndexPath:fromIndexPath toIndexPath:toIndexPath];
+                [self.reorderDelegate swapObjectAtIndexPath:fromIndexPath toIndexPath:toIndexPath];
                 self.indexPathOfReorderingCell = toIndexPath;
                 UITableViewRowAnimation animation = fromIndexPath.row < toIndexPath.row ? UITableViewRowAnimationTop : UITableViewRowAnimationBottom;
                 [self.tableView reloadRowsAtIndexPaths:@[fromIndexPath] withRowAnimation:animation];

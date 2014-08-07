@@ -26,7 +26,7 @@
     self.reorderDelegate = self;
 }
 
-- (void)swapCellAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
+- (void)swapObjectAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
 {
     NSMutableArray *list = [self.list mutableCopy];
     [list exchangeObjectAtIndex:fromIndexPath.row withObjectAtIndex:toIndexPath.row];
