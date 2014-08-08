@@ -25,8 +25,6 @@
 
     self.list = @[@"Buy milk", @"Buy bread", @"Buy soft drink", @"Excise", @"Have dinner with friends"];
     self.title = @"Reorder list";
-
-    [self.tableView setReorderDelegate:self];
 }
 
 - (void)swapObjectAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath

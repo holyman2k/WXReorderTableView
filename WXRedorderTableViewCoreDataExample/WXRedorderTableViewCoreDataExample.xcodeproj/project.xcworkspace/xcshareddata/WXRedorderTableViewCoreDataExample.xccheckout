@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>165CA857-487B-4F75-98FB-E6E4908C050B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WXRedorderTableViewCoreDataExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ADD88A31-6D6C-4644-94AE-3487F437E575</key>
+		<string>ssh://github.com/holyman2k/WXReorderTableView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WXRedorderTableViewCoreDataExample/WXRedorderTableViewCoreDataExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ADD88A31-6D6C-4644-94AE-3487F437E575</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/holyman2k/WXReorderTableView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ADD88A31-6D6C-4644-94AE-3487F437E575</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ADD88A31-6D6C-4644-94AE-3487F437E575</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WXReorderTableView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

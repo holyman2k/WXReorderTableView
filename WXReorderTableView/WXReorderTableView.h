@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol WXReorderTableViewDelegate <NSObject>
+@protocol WXReorderTableViewDelegate <UITableViewDelegate>
 
 - (void)swapObjectAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath;
 
@@ -18,7 +18,7 @@
 
 @property (nonatomic, readonly) NSIndexPath *indexPathOfReorderingCell;
 
-@property (nonatomic, weak) id<WXReorderTableViewDelegate> reorderDelegate;
+@property (nonatomic, weak) id<WXReorderTableViewDelegate> delegate;
 
 - (void)disableReorder;
 
