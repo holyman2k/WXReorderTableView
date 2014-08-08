@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FC28DB219944C4D00CA2F6A /* WXReorderTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC28DB119944C4D00CA2F6A /* WXReorderTableView.m */; };
 		6FE284B91993155A00C1CD11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE284B81993155A00C1CD11 /* Foundation.framework */; };
 		6FE284BB1993155A00C1CD11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE284BA1993155A00C1CD11 /* CoreGraphics.framework */; };
 		6FE284BD1993155A00C1CD11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE284BC1993155A00C1CD11 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6FC28DB019944C4D00CA2F6A /* WXReorderTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXReorderTableView.h; sourceTree = "<group>"; };
+		6FC28DB119944C4D00CA2F6A /* WXReorderTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXReorderTableView.m; sourceTree = "<group>"; };
 		6FE284B51993155A00C1CD11 /* WXReorderTableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXReorderTableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE284B81993155A00C1CD11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6FE284BA1993155A00C1CD11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -143,6 +146,8 @@
 			children = (
 				6FE284F2199316A200C1CD11 /* WXReorderTableTableViewController.h */,
 				6FE284F3199316A200C1CD11 /* WXReorderTableTableViewController.m */,
+				6FC28DB019944C4D00CA2F6A /* WXReorderTableView.h */,
+				6FC28DB119944C4D00CA2F6A /* WXReorderTableView.m */,
 			);
 			name = WXReorderTableView;
 			path = ../WXReorderTableView;
@@ -245,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FE284F7199316F400C1CD11 /* WXTableViewController.m in Sources */,
+				6FC28DB219944C4D00CA2F6A /* WXReorderTableView.m in Sources */,
 				6FE284C71993155A00C1CD11 /* main.m in Sources */,
 				6FE284CB1993155A00C1CD11 /* WXAppDelegate.m in Sources */,
 				6FE284F4199316A200C1CD11 /* WXReorderTableTableViewController.m in Sources */,

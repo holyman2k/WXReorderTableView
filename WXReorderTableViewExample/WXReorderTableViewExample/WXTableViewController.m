@@ -7,10 +7,13 @@
 //
 
 #import "WXTableViewController.h"
+#import "WXReorderTableView.h"
 
 @interface WXTableViewController () <WXReorderTableViewDelegate>
 
 @property (nonatomic, strong) NSArray *list;
+
+@property (nonatomic, strong) WXReorderTableView *tableView;
 
 @end
 
@@ -23,7 +26,7 @@
     self.list = @[@"Buy milk", @"Buy bread", @"Buy soft drink", @"Excise", @"Have dinner with friends"];
     self.title = @"Reorder list";
 
-    self.reorderDelegate = self;
+    [self.tableView setReorderDelegate:self];
 }
 
 - (void)swapObjectAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
@@ -47,7 +50,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
 
     // if this cell is been dragged
-    if (self.indexPathOfReorderingCell != nil && indexPath.row == self.indexPathOfReorderingCell.row) {
+    if (self.tableView.indexPathOfReorderingCell != nil && indexPath.row == self.tableView.indexPathOfReorderingCell.row) {
         cell.textLabel.text = nil;
         return cell;
     }

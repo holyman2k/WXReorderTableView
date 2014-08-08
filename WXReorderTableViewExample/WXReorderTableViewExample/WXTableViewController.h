@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WXReorderTableTableViewController.h"
 
-@interface WXTableViewController : WXReorderTableTableViewController
+@interface WXTableViewController : UITableViewController
 
 @end
