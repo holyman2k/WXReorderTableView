@@ -8,7 +8,7 @@
 
 #import "WXReorderTableView.h"
 
-@interface WXReorderTableView()
+@interface WXReorderTableView() <UIGestureRecognizerDelegate>
 
 @property (nonatomic, strong) UIView *snapshot;
 @property (nonatomic, strong) NSIndexPath *indexPathOfReorderingCell;
@@ -26,6 +26,7 @@
         self.longPressGestureRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPressGestureHandler:)];
         self.longPressGestureRecognizer.minimumPressDuration = .5;
         self.longPressGestureRecognizer.allowableMovement = YES;
+        self.longPressGestureRecognizer.delegate = self;
         [self addGestureRecognizer:self.longPressGestureRecognizer];
     }
 }
@@ -44,10 +45,10 @@
             self.indexPathOfReorderingCell = [self indexPathForRowAtPoint:point];
             UITableViewCell *cell = [self cellForRowAtIndexPath:self.indexPathOfReorderingCell];
 
-            // create cell snap shot for dragging
 //            self.snapshot = [cell snapshotViewAfterScreenUpdates:NO];
 //            [self.snapshot setTransform:CGAffineTransformMakeScale(1.00, 1.00)];
 
+            // create cell snap shot for dragging
             self.snapshot = [self snapshotViewForCell:cell];
             CGRect frame = self.snapshot.frame;
             frame.origin.y = point.y - frame.size.height / 2;
@@ -114,6 +115,17 @@
         default:
             break;
     }
+}
+
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
+{
+    if (gestureRecognizer == self.longPressGestureRecognizer) {
+        CGPoint point = [gestureRecognizer locationInView:self];
+        self.indexPathOfReorderingCell = [self indexPathForRowAtPoint:point];
+        UITableViewCell *cell = [self cellForRowAtIndexPath:self.indexPathOfReorderingCell];
+        return cell != nil;
+    }
+    return YES;
 }
 
 - (NSIndexPath *)indexPathOfLastRowInSection:(NSInteger)section
