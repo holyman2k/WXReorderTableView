@@ -23,7 +23,12 @@
 {
     [super viewDidLoad];
 
-    self.list = @[@"Buy milk", @"Buy bread", @"Buy soft drink", @"Excise", @"Have dinner with friends"];
+//    self.list = @[@"Buy milk", @"Buy bread", @"Buy soft drink", @"Excise", @"Have dinner with friends", @"a", @"b", @"c", @"d", @"e", @"f", @"g", @"h", @"i", @"j", @"k"];
+    NSMutableArray *array = [NSMutableArray array];
+    for (NSInteger i = 0; i < 100; i++) {
+        [array addObject:[@(i) stringValue]];
+    }
+    self.list = array;
     self.title = @"Reorder list";
 }
 
