@@ -8,7 +8,7 @@
 
 #import "WXReorderTableView.h"
 
-@interface WXReorderTableView()
+@interface WXReorderTableView() <UIGestureRecognizerDelegate>
 
 @property (nonatomic, strong) UIView *snapshot;
 @property (nonatomic, strong) NSIndexPath *indexPathOfReorderingCell;
@@ -28,6 +28,7 @@
         self.longPressGestureRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPressGestureHandler:)];
         self.longPressGestureRecognizer.minimumPressDuration = .5;
         self.longPressGestureRecognizer.allowableMovement = YES;
+        self.longPressGestureRecognizer.delegate = self;
         [self addGestureRecognizer:self.longPressGestureRecognizer];
     }
 }
@@ -62,12 +63,14 @@
             break;
         }
         case UIGestureRecognizerStateEnded: {
+            NSLog(@"ended");
 
             NSTimeInterval animationDuration = .2;
 
             CGPoint point = [gesture locationInView:self];
             NSIndexPath *indexPath = [self indexPathForRowAtPoint:point];
-            if (!indexPath) indexPath = [self indexPathOfLastRowInSection:0];
+            if (!indexPath) indexPath = point.y > 0 ? [self indexPathOfLastRowInSection:0] : [NSIndexPath indexPathForRow:0 inSection:0];
+
 
             UITableViewCell *cell = [self cellForRowAtIndexPath:indexPath];
             CGRect frame = cell.frame;
@@ -85,12 +88,15 @@
             break;
         }
         case UIGestureRecognizerStatePossible: {
+            NSLog(@"possible");
             break;
         }
         case UIGestureRecognizerStateCancelled: {
+            NSLog(@"cancelled");
             break;
         }
         case UIGestureRecognizerStateFailed: {
+            NSLog(@"failed");
             break;
         }
         default:
@@ -98,12 +104,22 @@
     }
 }
 
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
+{
+    if (gestureRecognizer == self.longPressGestureRecognizer) {
+        CGPoint point = [gestureRecognizer locationInView:self];
+        self.indexPathOfReorderingCell = [self indexPathForRowAtPoint:point];
+        UITableViewCell *cell = [self cellForRowAtIndexPath:self.indexPathOfReorderingCell];
+        return cell != nil;
+    }
+    return YES;
+}
+
 - (void)updateTableCell
 {
     CGPoint point = [self.longPressGestureRecognizer locationInView:self];
     NSIndexPath *fromIndexPath = self.indexPathOfReorderingCell;
     NSIndexPath *toIndexPath = [self indexPathForRowAtPoint:point];
-
 
     if (!toIndexPath) toIndexPath = [self indexPathOfLastRowInSection:0];
 
