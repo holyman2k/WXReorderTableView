@@ -164,13 +164,16 @@
     UITableViewCell *cell = [self cellForRowAtIndexPath:indexPath];
     if (!cell) return;
 
-    NSInteger upperBound = point.y - cell.frame.size.height / 2 - self.contentOffset.y - 64;
+    NSInteger upperBound = point.y - cell.frame.size.height / 2 - self.contentOffset.y;
     NSInteger lowerBound = point.y + cell.frame.size.height / 2 - self.contentOffset.y;
     NSInteger totalRow = [self.dataSource tableView:self numberOfRowsInSection:0];
+
+    CGRect visibleRect = CGRectIntersection(self.frame, self.superview.frame);
 
     CGFloat scrollSize = self.scrollRate; //cell.frame.size.height;
 
     if (upperBound < 0 && indexPath.row > 0) {
+        // auto scroll up
 
         [UIView animateWithDuration:.6 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
             CGPoint offset = self.contentOffset;
@@ -183,7 +186,8 @@
 
         }];
 
-    } else if (lowerBound > self.frame.size.height && indexPath.row < totalRow) {
+    } else if (lowerBound > visibleRect.size.height && indexPath.row < totalRow) {
+        // auto scroll down
 
         [UIView animateWithDuration:.6 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
             CGPoint offset = self.contentOffset;
@@ -208,8 +212,6 @@
 
 - (UIImageView *)snapshotViewForCell:(UITableViewCell *)cell
 {
-//    self.snapshot = [cell snapshotViewAfterScreenUpdates:NO];
-//    [self.snapshot setTransform:CGAffineTransformMakeScale(1.00, 1.00)];
     UIView *subView = cell;
     UIGraphicsBeginImageContextWithOptions(subView.bounds.size, YES, 0.0f);
     CGContextRef context = UIGraphicsGetCurrentContext();
