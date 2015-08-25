@@ -18,7 +18,7 @@
 
 @property (nonatomic, readonly) NSIndexPath *indexPathOfReorderingCell;
 
-@property (nonatomic, weak) id<WXReorderTableViewDelegate> delegate;
+@property (nonatomic, weak) id<WXReorderTableViewDelegate> reorderDelegate;
 
 - (void)disableReorder;
 

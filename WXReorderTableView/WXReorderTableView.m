@@ -140,7 +140,7 @@
     if (toIndexPath.row != fromIndexPath.row
         && labs(toIndexPath.row - fromIndexPath.row) == 1) {
 
-        [self.delegate swapObjectAtIndexPath:fromIndexPath toIndexPath:toIndexPath];
+        [self.reorderDelegate swapObjectAtIndexPath:fromIndexPath toIndexPath:toIndexPath];
         self.indexPathOfReorderingCell = toIndexPath;
 //        UITableViewRowAnimation animation = fromIndexPath.row < toIndexPath.row ? UITableViewRowAnimationTop : UITableViewRowAnimationBottom;
         UITableViewRowAnimation animation = animated ? UITableViewRowAnimationFade : UITableViewRowAnimationNone;
